@@ -17,14 +17,15 @@ try:
     url.svg("YourQRCode.svg", scale = 8)
 
     url.png("YourQRCode.png", scale = 8)
-
     time.sleep(2)
+    
     print("Successfully Created!\n")
     time.sleep(2)
+    
     print("Check on your device by searching 'YourQRCode'. You can later change name and location. Thanks!\n")
     time.sleep(2)
+    
     x = input("\nPress any key to exit ")
+
 except:
     print("Umm, Unexpected Error Occured. Please Try Again!\n")
-
-
