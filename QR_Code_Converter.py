@@ -4,7 +4,6 @@ import time
 
 from pyqrcode import *
 
-
 print("Hello From The Developer of this Application!\n")
 time.sleep(2)
 
